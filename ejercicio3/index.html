@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 3</title>
+    <style media="screen" type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .paises {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .nombre_pais {
+            float: left;
+            width: 50%;
+        }
+
+        .box {
+            border: 1px solid gray;
+            height: 200px;
+            width: 30%;
+            margin: 15px;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        .espana-red {
+            width: 100%;
+            height: 50px;
+            background-color: red;
+        }
+
+        .espana-yellow {
+            width: 100%;
+            height: 100px;
+            background-color: yellow;
+        }
+
+        .emiratos-red {
+            width: 25%;
+            height: 100%;
+            background-color: red;
+            float: left; 
+        }
+
+        .emiratos-green {
+            width: 100%;
+            height: 33%;
+            background-color: green;
+        }
+
+        .emiratos-white {
+            width: 100%;
+            height: 33%;
+            background-color: white;
+        }
+
+        .emiratos-black {
+            width: 100%;
+            height: 34%;
+            background-color: black;
+        }
+
+        .dinamarca-red {
+            margin:0;
+            height:200px;
+            width: 100%;
+            background-color: red;
+            border-color: red;
+            box-sizing: border-box;
+        }
+        
+        .dinamarca-white1 {
+            float: left;
+            width: 100%;
+            z-index: 2;
+            margin-top: 30%;
+            background-color: #fff;
+            height: 15px;
+        }
+        
+        .dinamarca-white2 {
+            width: 100%;
+            background-color: #fff;
+            margin-left: 30%;
+        }
+
+        .japon-red {
+            margin:10px;
+            height:200px;
+            width: 300px;
+            border: 1px solid grey;
+            box-sizing: border-box;
+            background-color:white;
+            border-radius: 50%;
+            background-color: red;
+            height: 80px;
+            width: 80px;
+            margin: 50px auto auto auto;
+        }
+    </style>
+</head>
+<body>
+   <section class="paises">
+        <div class="box">
+            <div class="espana-red"></div>
+            <div class="espana-yellow"></div>
+            <div class="espana-red"></div>
+        </div>
+
+        <div class="box">
+            <div class="dinamarca-white1"></div>
+            <div class="dinamarca-white2"></div>
+            <div class="dinamarca-red"></div>
+        </div>
+        <span class="nombre_pais">España</span>
+        <span class="nombre_pais">Dinamarca</span>
+
+        <div class="box">
+            <div class="emiratos-red"></div>
+            <div class="emiratos-green"></div>
+            <div class="emiratos-white"></div>
+            <div class="emiratos-black"></div>
+        </div>
+
+        <div class="box">
+            <div class="japon-red"></div>
+        </div>
+        <span class="nombre_pais">Emiratos Árabes</span>
+        <span class="nombre_pais">Japón</span>
+   </section>
+</body>
+</html>
